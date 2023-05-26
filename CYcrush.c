@@ -79,7 +79,8 @@ int CYcrush(int** plat, Dimensions dim){ //Fonction principale de jeu
 				affichage(plat,dim, tour, points);
 				}
 		  }while(testVictoire(plat, dim)==1);
-      printf("Vous avez gagné !");
+      printf("\n");
+      printf("Partie terminée !");
 			break;
 		case 3 :
 			do{
