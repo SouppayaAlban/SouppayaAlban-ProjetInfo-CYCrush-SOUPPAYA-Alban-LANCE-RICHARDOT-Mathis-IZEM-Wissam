@@ -18,8 +18,14 @@ je fais le plus vite posssible
 
 
 Bugs connu :
+
 -Affichage des scores dans le menu score
+
 -Double affichage du score à la fin d'une partie si une partie est sauvegardé au préalable
+
 -Pseudo non affiché bien qu'il soit sauvegardés
+
 -En cas d'échange de case, s'il y a un combo de 2 combinaisons ou plus sur une même case seulement un se lancera en fonction de cet ordre (Ligne, Colone, Diagonale haut-bas, Diagonale bas-haut)
+
 -De manière aléatoire le plateau ne s'affiche pas parfois (Le plus souvent sur Replit)
+
