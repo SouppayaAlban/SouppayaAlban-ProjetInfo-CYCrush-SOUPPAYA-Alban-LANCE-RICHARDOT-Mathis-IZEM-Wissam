@@ -67,8 +67,8 @@ Bugs connu :
 
 -Pseudo non affiché dans le fichier de sauvegarde
 
--En cas d'échange de case, s'il y a un combo de 2 combinaisons ou plus sur une même case seulement un se lancera en fonction de cet ordre (Ligne, Colone, Diagonale haut-bas, Diagonale bas-haut)
+-En cas d'échange de case, s'il y a un combo de 2 combinaisons ou plus sur une même case seulement un se lancera en fonction de cet ordre (Colone, Ligne, Diagonale haut-bas, Diagonale bas-haut)
 
 -De manière aléatoire le plateau ne s'affiche pas parfois (Le plus souvent sur Replit)
 
--Si dans les scanfs deux caractères sont saisies le programme risque de mal fonctionner
+-Si dans les scanfs deux caractères sont saisis le programme risque de mal fonctionner
