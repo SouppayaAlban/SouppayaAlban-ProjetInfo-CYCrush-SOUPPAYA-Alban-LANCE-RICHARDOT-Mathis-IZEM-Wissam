@@ -17,9 +17,9 @@ Présentation:
 
 Notre projet consiste à créer un candy crush avec certaines règles qui ont été choisies au hasard. Les règles étant :
 
--Cassage lorsque 3 cases ou plus de même symbole sont alignés, il fait en plus de l'horizontal et la vertical, les diagonales;
+-Cassage lorsque 3 cases ou plus de même symbole sont alignés en horizontal, vertical, et diagonales;
 
--Déplacement avec n'importe quel case du tableau;
+-Déplacement avec n'importe quelle case du tableau;
 
 -Gravité vers le bas;
 
