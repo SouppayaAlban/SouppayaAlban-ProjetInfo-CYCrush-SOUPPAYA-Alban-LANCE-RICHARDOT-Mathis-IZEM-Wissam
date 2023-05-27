@@ -7,7 +7,7 @@ Télécharger les fichiers : main.c, CYcrush.c, fonctions.c, fonctions.h, menu.t
 
 Les mettre dans un même dossier
 
-Pour compiler, utiliser la commande : make
+Pour compiler, utiliser la commande "make" dans le terminal
 
 ATTENTION ! Si les symboles ne marchent pas remplacer fonctions.c par fonctions1.c, puis renommer fonctions1.c en fonctions.c
 
