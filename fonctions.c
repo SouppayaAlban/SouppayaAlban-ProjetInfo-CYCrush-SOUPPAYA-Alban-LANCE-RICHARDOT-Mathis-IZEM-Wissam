@@ -307,9 +307,11 @@ Deplacements choixCase(int **plat, Dimensions dim) { // Déplacement du joueur
   echange.b = b - 1;
   echange.c = c - 65;
   echange.d = d - 1;
-  if (plat[echange.b][echange.a] == 0 || plat[echange.d][echange.c] == 0) {
-    printf("Erreur de saisie veuillez rentrer d'autre case");
-  } else {
+  if(plat[echange.b][echange.a] == 0 || plat[echange.d][echange.c] == 0) {
+    printf("Erreur de saisie veuillez rentrer d'autre case\n");
+    choixCase(plat,dim);
+  } 
+  else{
     echangeCase(plat, echange.a, echange.b, echange.c, echange.d);
   }
   return echange;
