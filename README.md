@@ -18,7 +18,6 @@ je fais le plus vite posssible
 
 
 Bugs connu :
-
 -Affichage des scores dans le menu score
 -Double affichage du score à la fin d'une partie si une partie est sauvegardé au préalable
 -Pseudo non affiché bien qu'il soit sauvegardés
