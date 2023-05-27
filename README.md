@@ -33,7 +33,7 @@ Sélection :
 
 Vous aurez le choix entre jouer, voir les règles, choisir les options de jeu ou encore de sortir du jeu. 
 Si le choix est de voir les régles il va afficher une par une les règles et vous proposer de revenir au menu quand tout sera affiché.
-Puis dans options vous aurez accès aux choix  de la dimension du tableau ( par défault est du 9*6) qui va redemander en boucle la saisie si elle est incorrecte, il y aura la même chose avec le nombre de symboles et le dernier choix est de voir les scores enregistés lors d'une victoire des joueurs précedent.
+Puis dans options vous aurez accès aux choix  de la dimension du tableau ( par défault 9*6) qui va redemander en boucle la saisie si elle est incorrecte, il y aura la même chose avec le nombre de symboles et le dernier choix est de voir les scores enregistés lors d'une victoire des joueurs précedent.
 Lorsque vous séléctionez "jouez" vous aurez encore un choix, soit créer une nouvelle partie ou générer la partie qui a été sauvegardée préalablement, si vous séléctionnez une sauvegarde inexitante cela va quitter le jeu automatiquement (il n'y a qu'une sauvegarde disponible s'il y en a une).
 Si la nouvelle partie est créée le jeu te demandera ton pseudo et démarrera la partie.
 
