@@ -1,6 +1,16 @@
 # SouppayaAlban-ProjetInfo-CYCrush-SOUPPAYA-Alban-LANCE-RICHARDOT-Mathis-IZEM-Wissam
 Projet CYcrush informatique 2
 
+Pour lancer CYcrush :
+
+Télécharger les fichiers : main.c, CYcrush.c, fonctions.c, fonctions.h, menu.txt, makefile
+
+Les mettre dans un même dossier
+
+Pour compiler, utiliser la commande : make
+
+ATTENTION ! Si les symboles ne marchent pas remplacer fonctions.c par fonctions1.c, puis renommer fonctions1.c en fonctions.c
+
 Présentation:
 
 Notre projet consiste de créer un candy crush avec certaines règles qui ont été choisis au hasard.
@@ -29,3 +39,4 @@ Bugs connu :
 
 -De manière aléatoire le plateau ne s'affiche pas parfois (Le plus souvent sur Replit)
 
+-Vers la fin du jeu, nous pouvons échanger une case symbole avec une case vide pour faire un cassage
