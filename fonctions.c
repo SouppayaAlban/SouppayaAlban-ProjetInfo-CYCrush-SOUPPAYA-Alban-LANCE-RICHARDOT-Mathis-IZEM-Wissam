@@ -12,7 +12,8 @@ int menu() { // Affichage du menu CYcrush
   if (f == NULL) {
     printf("Impossible");
     return 5;
-  } else {
+  }
+  else {
     while (fgets(c, sizeof c, f) != NULL) {
       printf("%s", c);
     }
@@ -22,8 +23,7 @@ int menu() { // Affichage du menu CYcrush
   couleur(0)
 }
 
-void regle() {// Explication des règles avec 3s de délais entre chaque phrases
-
+void regle() { // Explication des règles avec 3s de délais entre chaque phrases
   printf("CYcrush est un puzzle game se basant sur le même principe que "
          "CandyCrush comme son nom l'indique. Attention cependant, les règles "
          "diffèrent un peu !\n");
