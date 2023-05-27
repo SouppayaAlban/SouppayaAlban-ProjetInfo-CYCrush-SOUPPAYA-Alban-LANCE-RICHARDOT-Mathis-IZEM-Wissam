@@ -11,6 +11,8 @@ Pour compiler, utiliser la commande : make
 
 ATTENTION ! Si les symboles ne marchent pas remplacer fonctions.c par fonctions1.c, puis renommer fonctions1.c en fonctions.c
 
+
+
 Présentation:
 
 Notre projet consiste de créer un candy crush avec certaines règles qui ont été choisis au hasard.
@@ -25,6 +27,8 @@ Notre projet consiste de créer un candy crush avec certaines règles qui ont é
 
 Il y a différentes phases lors du candy crush la premieres est la selection des choix du joueur dans les menus puis la seconde est le lancement du jeu et enfin la phase finale
 
+
+
 Sélection :
 
 Vous aurez le choix de jouer, de voir les règles, choisir les options de jeu ou encore de sortir du jeu. 
@@ -32,6 +36,8 @@ Si le choix est de voir les régles il va afficher une par une les règles et vo
 Puis dans options vous aurez accès aux choix  de la dimension du tableau ( par défault est du 9*6) qui va redemander en boucle la saisie si elle est incorrect, il y aura la même chose avec le nombre de symbole et le dernier choix de voir les scores enregister lors d'une victoire des joueurs précedent.
 Lorsque vous séléctionez jouez vous aurez encore un choix soit créer une nouvelle partie ou générer la partie qui aura été sauvegardée et si vous séléctionnez une sauvegarde inexitantes cela va quitter le jeu automatiquement (il y aura qu'une sauvegarde disponible s'il y en a une).
 Si la nouvelle partie est créée il te demandera ton pseudo et démarre la partie.
+
+
 
 
 Phase de jeu:
@@ -43,6 +49,9 @@ Mais si vous créez une nouvelle partie et la sauvegardez l'ancienne sera effac�
 Si vous choissiez non la partie continue avec la mise a jour du tableau après que le cassage et que la gravité sois effectuer.
 Cela se répéte jusqu'à ce que le joueur ne puisse faire aucun mouvement. 
 
+
+
+
 Phase finale :
 
 Quand plus aucun mouvement est possible le programme va afficher le score du joueur et dire s'il a gagné ou non en vérifiant le nombre de symbole sur le plateau s'il est nombre de symbole est supérieur à 2 il aura perdu sinon il gagne.
@@ -52,6 +61,8 @@ Bug connu:
 -Sur certains replit le programme ne se lance pas 
 -Si tu sauvegarde et tu gagnes ou perds la partie ça affiche deux fois la phrase avec le score sauvegarder et une autre avec le score final
 -Pseudo apparait pas dans le fichier de sauvegarde de victoire
+
+
 
 
 Bugs connu :
@@ -66,3 +77,4 @@ Bugs connu :
 
 -De manière aléatoire le plateau ne s'affiche pas parfois (Le plus souvent sur Replit)
 
+-Si dans les scanfs deux caractères sont saisies le programme risque de mal fonctionner
