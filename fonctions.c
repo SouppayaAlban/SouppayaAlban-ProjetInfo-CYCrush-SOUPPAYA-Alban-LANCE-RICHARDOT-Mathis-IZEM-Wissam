@@ -449,7 +449,7 @@ int testVictoire(int **plat, Dimensions dim) {
       //Vérifie cassage pour chaque mouvement de chaque case du tableau
       for (i = 0; i < dim.d1; i++) {
         for (j = 0; j < dim.d2; j++) {
-          if (plat[k][l] != 0) {
+          if (plat[k][l] != 0 && plat[i][j] != 0) {
             echangeCase(plat, l, k, j, i);
             if (verifcassage(plat, dim) == 1) {
               a = 1;
