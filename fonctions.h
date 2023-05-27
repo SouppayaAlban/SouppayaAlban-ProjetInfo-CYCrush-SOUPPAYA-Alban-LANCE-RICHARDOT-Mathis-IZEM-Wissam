@@ -7,9 +7,9 @@
 #include <math.h>
 #include <unistd.h>
 
-#define clear() printf("\033[H\033[J")
+#define clear() printf("\033[H\033[J") //Fonction pour vider le terminal
 #define couleur(param)\
-	printf("\033[%dm", param);
+	printf("\033[%dm", param); //Fonction couleur
 
 typedef struct{
 	int d1;
