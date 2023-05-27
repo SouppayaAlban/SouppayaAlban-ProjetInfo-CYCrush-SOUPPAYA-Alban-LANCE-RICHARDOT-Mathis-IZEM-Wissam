@@ -14,10 +14,15 @@ ATTENTION ! Si les symboles ne marchent pas remplacer fonctions.c par fonctions1
 Présentation:
 
 Notre projet consiste de créer un candy crush avec certaines règles qui ont été choisis au hasard.
+
 -le cassage se fait lorsque 3 ou plus de même symbole sont alignés, il fait en plus de l'horizontal et la vertical, les diagonales;
+
 -on peut déplacer n'importe quelle case du tableau;
+
 -La gravité est vers le bas;
+
 -Le tableau se remplit pas;
+
 Il y a différentes phases lors du candy crush la premieres est la selection des choix du joueur dans les menus puis la seconde est le lancement du jeu et enfin la phase finale
 
 Sélection :
